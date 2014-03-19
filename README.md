@@ -20,11 +20,9 @@ Emulates the browser's `navigator`
       , onLine: true
       , platform: "MacIntel"
       , plugins: []
-        /*
-        */
       , product: "Gecko"
       , productSub: "20030107"
-      , usegAgent: "Mozilla/5.0 (" + machine + "; " + arch + ") " + engine
+      , userAgent: "Mozilla/5.0 (" + machine + "; " + arch + ") " + engine
       , vendor: "Joyent"
       , vendorSub: ""
     }
